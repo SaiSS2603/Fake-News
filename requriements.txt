@@ -1,1 +1,5 @@
-sklearn==1.2.0
+sklearn==1.2.0  
+pandas
+numpy
+matplotlib
+seaborn  
