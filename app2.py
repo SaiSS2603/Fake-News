@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import classification_report
 from joblib import dump, load
 
-
+!pip install scikit-learn==1.2
 # Load pre-trained models and vectorizer (assuming they are in the same directory)
 with open("logistic_regression_model.pkl", "rb") as model_file:
     LR = pickle.load(model_file)
